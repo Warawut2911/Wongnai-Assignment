@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.show-more {
+  display: block;
+  width: 660px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.tag-element {
+  margin-inline: 5px;
+  color: darkgrey;
+}
+
+.images {
+  display: inline-block;
+  width: 15%;
+  margin-inline: 15px;
+  border-radius: 20px;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control{
+  border: 0;
+  border-radius: 20px;
+}
+
